@@ -7,7 +7,7 @@ const AdminLogin = ({ setIsAuthenticated }) => {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    if (username === 'admin' && password === 'vish@l31545') {
+    if (username === 'admin' && password === 'password') {
       setIsAuthenticated(true);
       localStorage.setItem('isAuthenticated', 'true');
       setError('');
